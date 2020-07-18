@@ -1,0 +1,47 @@
+										BlockChain
+
+1. What is your understanding of BlockChain?
+Ans: BlockChain is distibuted database i.e. where the data will be spreaded and saved in different  blocks and the data will be in encrypted form (uses Cryptography), nothing but securing the data from thired party(Hacker), where the data is immutable(Which can't be changed), the data is redundent so that there is no loss of data and the data will be verified(so that if there is any changes or wrong in data, the data will be resent)..
+
+2.what is the core problem Blockchain trying to solve?
+Ans: 1.Solved Problem of Trust
+		a.By decentralized consensus
+	 2.Removed Dependency on Centralized Authority and Intermediaries
+	 3.Established Ubiquitous Processes for Business Transaction Recording, Verification and Publishing
+		a.By using similar protocols for governance
+	 4.Implemented Tamper Proof Distributed Ledger
+		a.By using Immutability and By using Cryptography in Ground Up approach on Security
+	 5.Ensured All Ledger Copies are Consistent
+		a.By using Peer to Peer Computing for Transaction Propagation, Verification and Publishing and state of ledger
+	 6.In Voting..
+	
+3.what are the few features which blockchain will give you?
+Ans:1.cannot be corrupted
+		Every node on the network has a copy of the digital ledger. To add a transaction every node needs to check its validity. if the majority thinks its valid. then its added to the ledger, this promotes transparency and makes it corruption-proof.
+
+	2.Decebtralized Technology
+		This is one of the key features of blockchain technology that works perfectly. Let me make it simpler. Blockchain puts us users in a straightforward position. As the system doesn’t require any governing authority, we can directly access it from the web and store our assets there.
+
+	3.Enhanced Security
+		As it gets rid of the need for central authority, no can just simply change any characteristics of the network for their benefit. Using encryption ensures another layer of security for the system.
+
+	4.Distributed Ledgers
+		The ledger on the network is maintained by all other users on the system. This distributed the computational power across the computers to ensure a better outcome.
+
+	5.Consensus
+		The consensus is a decision-making process for the group of nodes active on the network. Here, the nodes can come to an agreement quickly and relatively faster. When millions of nodes are validating a transaction, a consensus is absolutely necessary for a system to run smoothly. You could think of it as kind of a voting system, where the majority wins, and the minority has to support it.
+
+	6. Faster Settlement
+		Traditional banking systems are quite slow. Sometimes it can take days to process a transaction after finalizing all settlements. It also can be corrupted quite easily. Blockchain offers a faster settlement compared to traditional banking systems. This way a user can transfer money relatively faster, which saves a lot of time in the long run.
+
+4.What all things does a block contain?
+Ans:A blockchain, is a growing list of records is nothing but an blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data..
+	* The previous block hash. Remember that in a blockchain, every block is inherits from the previous block because we use the previous block's hash to create the new block's hash. For every block N, we feed it the hash of the block N-1.
+	* In first block(Genesis block) it contains current data, no previous data and next block i.e. block 1  contains previous data(A) + current data(B)= C, 
+					C+ D=E.....similarly for the further blocks (block n).
+
+5.How is the verifiability of blockchain has been attained?
+Ans:verifiability means the data will be spreaded in n blocks and saved in encrypted form(use cryptography). In genesis block, only the current data will be saved.
+ *In the next block the prevoius data + current data will be saved in each and every block.
+ *The data will be shared to multiple user(block), so that the data will be redundent(copy), Secure.
+ *If the user gets different data when compared to other user on that time verifiability of blockchain helps us to overcome those type of problems like resending the data again.
